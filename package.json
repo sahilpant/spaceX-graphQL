@@ -8,7 +8,8 @@
     "start": "npm run dev",
     "devStart": "nodemon server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run devStart\" \"npm run client\""
+    "dev": "concurrently \"npm run devStart\" \"npm run client\"",
+    "prod":"concurrently \"node server.js\" \"npm run client\""
   },
   "author": "",
   "license": "ISC",
