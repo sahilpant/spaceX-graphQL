@@ -8,7 +8,7 @@ import Launch from "./components/launch";
 
 
 const client = new ApolloClient({
-  uri:'https://spacex-app-deployment.herokuapp.com/graphql',
+  uri:'https://spacex-app-backend-deployment.herokuapp.com/graphql',
   cache: new InMemoryCache()
 });
 
